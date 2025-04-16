@@ -32,7 +32,7 @@ npx expo start
 
 This app uses Firebase and external APIs. Make sure to have a valid internet connection and replace all API placeholders with your own.
 
-API Configuration
+API Configuration:
 All sensitive API keys have been removed for security.
 
 Please manually replace the following placeholders in the code before running:
@@ -44,7 +44,7 @@ MapScreen.tsx / NearestAirportScreen.tsx – for aviation data
 firebase.ts – for Firebase config
 
 4. Build APK：
-1. Install EAS CLI (if not installed):
+Install EAS CLI (if not installed):
 npm install -g eas-cli
 
 Log into your Expo account:
@@ -53,8 +53,7 @@ eas login
 Build the APK:
 eas build -p android --profile preview
 
-Notes
-Tested on physical Android devices
-Make sure to replace all placeholder API keys with your own before deployment
+Notes：
+Tested on physical Android devices and make sure to replace all placeholder API keys with your own before deployment
 
 
