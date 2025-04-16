@@ -21,6 +21,7 @@ APPROACH is a cross-platform mobile application that helps users locate, explore
 > This project was developed using <Expo SDK 52> and <React Native 0.76>.
 
 1. Clone the repository:
+```bash
 git clone https://github.com/jgddhfhdffhd/approach2.git
 cd approach2
 
