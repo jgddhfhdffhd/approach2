@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Glasgow International Airport",
+    "lat": 55.8719,
+    "lon": -4.4331,
+    "iata": "GLA",
+    "city": "Glasgow"
+  },
+  {
+    "name": "Edinburgh Airport",
+    "lat": 55.95,
+    "lon": -3.3725,
+    "iata": "EDI",
+    "city": "Edinburgh"
+  },
+  {
+    "name": "Heathrow Airport",
+    "lat": 51.47,
+    "lon": -0.4543,
+    "iata": "LHR",
+    "city": "London"
+  },
+  {
+    "name": "Gatwick Airport",
+    "lat": 51.1537,
+    "lon": -0.1821,
+    "iata": "LGW",
+    "city": "London"
+  },
+  {
+    "name": "Manchester Airport",
+    "lat": 53.3659,
+    "lon": -2.2727,
+    "iata": "MAN",
+    "city": "Manchester"
+  },
+  {
+    "name": "Birmingham Airport",
+    "lat": 52.4539,
+    "lon": -1.748,
+    "iata": "BHX",
+    "city": "Birmingham"
+  },
+  {
+    "name": "Bristol Airport",
+    "lat": 51.3827,
+    "lon": -2.7191,
+    "iata": "BRS",
+    "city": "Bristol"
+  },
+  {
+    "name": "London City Airport",
+    "lat": 51.5053,
+    "lon": 0.0553,
+    "iata": "LCY",
+    "city": "London"
+  },
+  {
+    "name": "Belfast International Airport",
+    "lat": 54.6575,
+    "lon": -6.2158,
+    "iata": "BFS",
+    "city": "Belfast"
+  },
+  {
+    "name": "Leeds Bradford Airport",
+    "lat": 53.8659,
+    "lon": -1.6606,
+    "iata": "LBA",
+    "city": "Leeds"
+  }
+]
