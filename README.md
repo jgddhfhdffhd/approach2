@@ -21,12 +21,10 @@ APPROACH is a cross-platform mobile application that helps users locate, explore
 > This project was developed using <Expo SDK 52> and <React Native 0.76>.
 
 1. Clone the repository:
-```bash
 git clone https://github.com/jgddhfhdffhd/approach2.git
 cd approach2
 
 2. Install dependencies:
-```bash
 npm install
 
 3. Start the app:
@@ -47,7 +45,6 @@ firebase.ts – for Firebase config
 
 4. Build APK：
 1. Install EAS CLI (if not installed):
-```bash
 npm install -g eas-cli
 
 Log into your Expo account:
