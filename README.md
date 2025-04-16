@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# ✈️ APPROACH – Global Airport Navigation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+APPROACH is a cross-platform mobile application that helps users locate, explore, and navigate to airports around the world. Built with <React Native + Firebase>, the app supports real-time comments, photo sharing, social features, and offline-friendly navigation.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- 🌍 Global Airport Map – Browse worldwide airports using Leaflet in WebView
+- 📍 Nearest Airport Navigation – IP-based location + OSRM routing + compass guidance
+- 💬 Comment System – Leave comments with images, timestamps, and avatars
+- 📷 Photo Upload – Take or select photos and save them to personal Flight Album
+- 🧑‍🤝‍🧑 Friends & Chat – Add friends, accept requests, and chat in real time
+- 👤 Profile Edit – Change nickname and avatar (support camera/gallery/album)
+- ☁️ Firebase Integration – Auth, Firestore, Storage, and real-time listeners
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Installation
 
-In the output, you'll find options to open the app in a
+> This project was developed using <Expo SDK 52> and <React Native 0.76>.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/jgddhfhdffhd/approach2.git
+cd approach2
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+npm install
 
-## Learn more
+3. Start the app:
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+This app uses Firebase and external APIs. Make sure to have a valid internet connection and replace all API placeholders with your own.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+API Configuration
+All sensitive API keys have been removed for security.
 
-## Join the community
+Please manually replace the following placeholders in the code before running:
+#YOUR_RAPIDAPI_KEY
 
-Join our community of developers creating universal apps.
+These appear in files such as:
+AirportDetail.tsx – for AbstractAPI time zone
+MapScreen.tsx / NearestAirportScreen.tsx – for aviation data
+firebase.ts – for Firebase config
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Build APK：
+1. Install EAS CLI (if not installed):
+```bash
+npm install -g eas-cli
+
+Log into your Expo account:
+eas login
+
+Build the APK:
+eas build -p android --profile preview
+
+Notes
+Tested on physical Android devices
+Make sure to replace all placeholder API keys with your own before deployment
+
+
