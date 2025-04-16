@@ -26,6 +26,7 @@ git clone https://github.com/jgddhfhdffhd/approach2.git
 cd approach2
 
 2. Install dependencies:
+```bash
 npm install
 
 3. Start the app:
